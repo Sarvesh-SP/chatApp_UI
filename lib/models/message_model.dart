@@ -21,19 +21,19 @@ class Message {
 final User currentUser = User(
   id: 0,
   name: 'Current User',
-  imageUrl: 'assets/images/greg.jpg',
+  imageUrl: 'assets/images/olivia.jpg',
 );
 
 // USERS
-final User greg = User(
+final User Santhosh = User(
   id: 1,
-  name: 'Greg',
-  imageUrl: 'assets/images/greg.jpg',
+  name: 'Santhosh',
+  imageUrl: 'assets/images/santhosh.jpg',
 );
-final User james = User(
+final User rayson = User(
   id: 2,
-  name: 'James',
-  imageUrl: 'assets/images/james.jpg',
+  name: 'rayson',
+  imageUrl: 'assets/images/rayson.jpg',
 );
 final User john = User(
   id: 3,
@@ -53,7 +53,7 @@ final User sam = User(
 final User sophia = User(
   id: 6,
   name: 'Sophia',
-  imageUrl: 'assets/images/sophia.jpg',
+  imageUrl: 'assets/images/yashas.jpg',
 );
 final User steven = User(
   id: 7,
@@ -62,12 +62,12 @@ final User steven = User(
 );
 
 // FAVORITE CONTACTS
-List<User> favorites = [sam, steven, olivia, john, greg];
+List<User> favorites = [sam, steven, olivia, john, Santhosh];
 
 // EXAMPLE CHATS ON HOME SCREEN
 List<Message> chats = [
   Message(
-    sender: james,
+    sender: Santhosh,
     time: '5:30 PM',
     text: 'Hey, how\'s it going? What did you do today?',
     isLiked: false,
@@ -109,7 +109,7 @@ List<Message> chats = [
     unread: false,
   ),
   Message(
-    sender: greg,
+    sender: Santhosh,
     time: '11:30 AM',
     text: 'Hey, how\'s it going? What did you do today?',
     isLiked: false,
@@ -120,7 +120,7 @@ List<Message> chats = [
 // EXAMPLE MESSAGES IN CHAT SCREEN
 List<Message> messages = [
   Message(
-    sender: james,
+    sender: rayson,
     time: '5:30 PM',
     text: 'Hey, how\'s it going? What did you do today?',
     isLiked: true,
@@ -134,14 +134,14 @@ List<Message> messages = [
     unread: true,
   ),
   Message(
-    sender: james,
+    sender: steven,
     time: '3:45 PM',
     text: 'How\'s the doggo?',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: james,
+    sender: steven,
     time: '3:15 PM',
     text: 'All the food',
     isLiked: true,
@@ -155,7 +155,7 @@ List<Message> messages = [
     unread: true,
   ),
   Message(
-    sender: james,
+    sender: rayson,
     time: '2:00 PM',
     text: 'I ate so much food today.',
     isLiked: false,
